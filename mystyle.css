@@ -381,5 +381,112 @@ footer{
     border-radius: 50%;
 }
 
+/*myfuture*/
+
+.banner9 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/future.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+    text-align: center;
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner9-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.banner9 h1 {
+    font-size: 2.5em; /* Adjust font size */
+    margin-bottom: 0.5em;
+}
+
+.banner9 p {
+    font-size: 1.5em; /* Adjust font size */
+    margin-bottom: 1em;
+}
+
+.banner10 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky4.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex;
+    color: #000; /* Text color */ 
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner10-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.banner11 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky5.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex; 
+    color: #000; /* Text color */  
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner11-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+.banner12 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky6.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex; 
+    color: #000; /* Text color */  
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner12-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.slider2{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;  
+    margin: 150px;
+}
+
+.slides2{
+    width: 500%;
+    height: 300px;
+    display: flex;
+}
+
+.slides2 input{
+    display: none;
+}
+
+.slide2{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
 
 
