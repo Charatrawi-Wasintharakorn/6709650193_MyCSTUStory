@@ -259,26 +259,94 @@ footer{
 
 /*Myjourney*/
 
-.circle-image {
-    width: 200px;        
-    height: 200px;       
-    border-radius: 50%;  
-    object-fit: cover;   
-}
-
 .banner4 {
     position: relative;
     width: 100%;
     height: 100vh; /* Full viewport height */
-    background: url('resources/sea.jpg') no-repeat center center; /* Replace with your image URL */
+    background: url('resources/journey.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+    text-align: center;
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner4-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.banner4 h1 {
+    font-size: 2.5em; /* Adjust font size */
+    margin-bottom: 0.5em;
+}
+
+.banner4 p {
+    font-size: 1.5em; /* Adjust font size */
+    margin-bottom: 1em;
+}
+
+.banner5 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky.jpg') no-repeat center center; /* Replace with your image URL */
     background-size: cover; /* Make sure the image covers the whole area */
     display: flex;
     color: #000; /* Text color */ 
     padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
-   
 }
 
-.banner4-content {
+.banner5-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.banner6 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky1.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex; 
+    color: #000; /* Text color */  
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner6-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+.banner7 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky2.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex; 
+    color: #000; /* Text color */  
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner7-content {
+    max-width: 800px; /* Adjust width of the content */
+    padding: 20px;
+}
+
+.banner8 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: url('resources/sky3.jpg') no-repeat center center; /* Replace with your image URL */
+    background-size: cover; /* Make sure the image covers the whole area */
+    display: flex;
+    color: #000; /* Text color */ 
+    padding-top: 60px; /* Adjust to prevent content from being hidden under navbar */
+}
+
+.banner8-content {
     max-width: 800px; /* Adjust width of the content */
     padding: 20px;
     
@@ -296,8 +364,6 @@ footer{
     width: 500%;
     height: 300px;
     display: flex;
-   
-
 }
 
 .slides1 input{
@@ -310,8 +376,8 @@ footer{
 }
 
 .slide1 img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 }
 
